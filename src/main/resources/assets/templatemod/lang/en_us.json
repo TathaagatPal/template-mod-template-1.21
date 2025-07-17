@@ -1,4 +1,9 @@
 {
   "item.templatemod.pink_garnet": "Pink Garnet",
-  "item.templatemod.raw_pink_garnet": "Raw Pink Garnet"
+  "item.templatemod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.templatemod.big_rat": "Big Rat",
+  "block.templatemod.pink_garnet_block": "Block of pink garnet",
+  "block.templatemod.big_rat_block": "Big rat block",
+  "item.templatemod.hackingtons_logo": "Hackingtons",
+  "block.templatemod.hackingtons_block": "Hackingtons Block"
 }
