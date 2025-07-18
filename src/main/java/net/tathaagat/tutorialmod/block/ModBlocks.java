@@ -19,6 +19,7 @@ public class ModBlocks {
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",new Block(AbstractBlock.Settings.create().strength(4f).requires().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block BIG_RAT_BLOCK = registerBlock("big_rat_block",new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
     public static final Block HACKINGTONS_BLOCK = registerBlock("hackingtons_block",new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.LANTERN)));
+    public static final Block COOL_BLOCK = registerBlock("cool_block", new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().luminance(state -> 15).nonOpaque().sounds(BlockSoundGroup.SLIME)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);
@@ -34,6 +35,7 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.PINK_GARNET_BLOCK);
             fabricItemGroupEntries.add(ModBlocks.BIG_RAT_BLOCK);
             fabricItemGroupEntries.add(ModBlocks.HACKINGTONS_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.COOL_BLOCK);
         });
 
     }
