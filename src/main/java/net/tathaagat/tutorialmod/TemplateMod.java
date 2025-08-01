@@ -3,6 +3,7 @@ package net.tathaagat.tutorialmod;
 import net.fabricmc.api.ModInitializer;
 
 import net.tathaagat.tutorialmod.block.ModBlocks;
+import net.tathaagat.tutorialmod.item.ModItemGroups;
 import net.tathaagat.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,8 @@ public class TemplateMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

@@ -5,5 +5,6 @@
   "block.templatemod.pink_garnet_block": "Block of pink garnet",
   "block.templatemod.big_rat_block": "Big rat block",
   "item.templatemod.hackingtons_logo": "Hackingtons",
-  "block.templatemod.hackingtons_block": "Hackingtons Block"
+  "block.templatemod.hackingtons_block": "Hackingtons Block",
+  "itemgroup.templatemod.good_stuff_item": "The Good Stuff"
 }
